@@ -1,4 +1,4 @@
 ping:
 	pip install ccxt
 	pip install pandas
-	python ./ping_tester.py
+	python3 ./ping_tester.py
