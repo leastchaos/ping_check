@@ -22,4 +22,4 @@ for exchange_id in exchange_ids:
         ping_times[exchange_id].append(time.time() - start_time)
 
 pd.DataFrame(ping_times).describe().to_csv(
-    f'./data/{data["country_name"]}_{time.time()}.csv')
+    f'./data/{data["country_name"]}_{round(time.time())}.csv')
