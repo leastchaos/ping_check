@@ -8,3 +8,8 @@ ping:
 	git commit -am 'add data'
 	git push
 
+make ping_test
+	python3 ./ping_tester.py
+	git add .
+	git commit -am 'add data'
+	git push
